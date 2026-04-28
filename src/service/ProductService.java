@@ -15,4 +15,13 @@ public class ProductService {
         repo.tambah(product);
     }
 
+    public void showAll() throws SQLException {
+        List<Product> list = repo.showAll();
+        if (list.isEmpty()) {
+            System.out.println("Belum ada data.");
+            return;
+        }
+        list.forEach(System.out::println);
+    }
+
 }
