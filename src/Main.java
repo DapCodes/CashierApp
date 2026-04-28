@@ -9,7 +9,7 @@ public class Main {
 
             Scanner input = new Scanner(System.in);
 
-            System.out.println("Masukan Aksi (CREATE | SHOW ALL)");
+            System.out.println("Masukan Aksi (CREATE | SHOW ALL | SHOW BY ID)");
             String aksi = input.nextLine();
 
             if (aksi.equals("CREATE")) {
@@ -26,6 +26,12 @@ public class Main {
             if (aksi.equals("SHOW ALL")) {
                 System.out.println("\n=== Daftar Produk ===");
                 service.showAll();
+            }
+
+            if (aksi.equals("SHOW BY ID")) {
+                System.out.println("Masukan ID: ");
+                int id = input.nextInt();
+                service.showById(id);
             }
 
         } catch (Exception e) {

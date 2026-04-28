@@ -1,8 +1,0 @@
-src/Main.java
-src/model/User.java
-src/model/TransactionItem.java
-src/model/Product.java
-src/model/Transaction.java
-src/repository/ProductRepository.java
-src/service/ProductService.java
-src/config/DBConnection.java

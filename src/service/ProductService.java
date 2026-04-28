@@ -24,4 +24,8 @@ public class ProductService {
         list.forEach(System.out::println);
     }
 
+    public void showById(int id) {
+        repo.showById(id);
+    }
+
 }
