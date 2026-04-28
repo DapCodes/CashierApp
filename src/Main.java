@@ -24,7 +24,7 @@ public class Main {
             }
 
             if (aksi.equals("SHOW ALL")) {
-                System.out.println("\n=== Daftar Mahasiswa ===");
+                System.out.println("\n=== Daftar Produk ===");
                 service.showAll();
             }
 
