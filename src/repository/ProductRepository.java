@@ -1,7 +1,7 @@
 package repository;
 
 import config.DBConnection;
-import model.Mahasiswa;
+import model.Product;
 
 import java.sql.*;
 import java.util.ArrayList;

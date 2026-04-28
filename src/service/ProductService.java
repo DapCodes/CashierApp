@@ -1,7 +1,7 @@
 package service;
 
-import model.Mahasiswa;
-import repository.MahasiswaRepository;
+import model.Product;
+import repository.ProductRepository;
 
 import java.sql.SQLException;
 import java.util.List;

@@ -23,6 +23,8 @@ public class Main {
                 System.out.println("Produk berhasil ditambahkan!");
             }
 
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 }
